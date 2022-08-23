@@ -11,7 +11,7 @@ public class qudTest1 {
     public WebDriver driver;
 
     @BeforeTest
-    public void baseUrl(){
+    public void setBaseUrl(){
         //Use the setProperty Java method to set the chrome driver path
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         driver = new ChromeDriver();
